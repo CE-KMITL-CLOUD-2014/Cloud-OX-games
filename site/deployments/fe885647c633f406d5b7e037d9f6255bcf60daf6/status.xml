@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<deployment>
+  <id>fe885647c633f406d5b7e037d9f6255bcf60daf6</id>
+  <author>MidasCE</author>
+  <deployer>e12</deployer>
+  <authorEmail>midaskmitl@gmail.com</authorEmail>
+  <message>Revert "Test change index"
+    
+    This reverts commit a99d9e755c84f31cafbc01ab64abb747cea299c1.</message>
+  <progress></progress>
+  <status>Success</status>
+  <statusText></statusText>
+  <lastSuccessEndTime>2014-09-13T05:04:20.8382545Z</lastSuccessEndTime>
+  <receivedTime>2014-09-13T05:04:12.8936727Z</receivedTime>
+  <startTime>2014-09-13T05:04:13.7400706Z</startTime>
+  <endTime>2014-09-13T05:04:20.8382545Z</endTime>
+  <complete>True</complete>
+  <is_temp>False</is_temp>
+  <is_readonly>False</is_readonly>
+</deployment>

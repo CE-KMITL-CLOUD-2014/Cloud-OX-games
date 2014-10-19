@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<deployment>
+  <id>a99d9e755c84f31cafbc01ab64abb747cea299c1</id>
+  <author>MidasCE</author>
+  <deployer>e12</deployer>
+  <authorEmail>midaskmitl@gmail.com</authorEmail>
+  <message>Test change index</message>
+  <progress></progress>
+  <status>Success</status>
+  <statusText></statusText>
+  <lastSuccessEndTime>2014-09-13T04:57:36.0525882Z</lastSuccessEndTime>
+  <receivedTime>2014-09-13T04:57:18.7151577Z</receivedTime>
+  <startTime>2014-09-13T04:57:19.4378186Z</startTime>
+  <endTime>2014-09-13T04:57:36.0525882Z</endTime>
+  <complete>True</complete>
+  <is_temp>False</is_temp>
+  <is_readonly>False</is_readonly>
+</deployment>
