@@ -1,2 +1,0 @@
-28.30905.1123.0
--y --no-dot-deployment -r "D:\home\site\wwwroot" -o "D:\home\site\deployments\tools" --node --sitePath "D:\home\site\wwwroot"
