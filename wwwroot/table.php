@@ -6,11 +6,12 @@
 	$table_no = $_GET['table_req'];
 	$blind = $_GET['playable'];
 	
-	if(isset($_GET["sym"]){
+	if($_GET['sym'] == 0 OR $_GET['sym'] == 1){
 		$query = "UPDATE lobby SET d".$_GET['pos']." = '".$_GET['sym']."' WHERE id ='".$table_no."'";
         $statement = $databaseConnection->query($query);
 	}
-
+	
+	echo $query;
 	if($blind == 2){
 		$query = "UPDATE lobby SET join_id = ".$_SESSION['userid'].", join_name ='".$_SESSION['name']."' WHERE id ='".$table_no."'";
         $statement = $databaseConnection->query($query);
