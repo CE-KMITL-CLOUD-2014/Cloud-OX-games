@@ -17,6 +17,11 @@
         $statement->bind_param('sss',$cre_id,$cre_name, $r_name);
         $statement->execute();
         $statement->store_result();
+		
+		$sql = "SELECT * FROM lobby where cre_id =".$_SESSION['userid']."  order by id DESC";
+		$result = $databaseConnection->query($sql);
+		$row = $result->fetch_assoc();
+		header("Location: http://e12bg.azurewebsites.net/table.php?table_req=".$row['id']);
 
     }
 	
