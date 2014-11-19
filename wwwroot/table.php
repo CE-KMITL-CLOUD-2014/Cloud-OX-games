@@ -51,7 +51,7 @@
 			for($W=1;$W<=3;$W++){
 				echo "<td>";
 				if($row["d".(($H*3)+$W)]==0){
-					if($blind == 1) echo "<a href=table.php?table_req=".$table_no."&sym=".$sym."&pos=".(($H*3)+$W)."&turn=".($row["turn"]+1).">";
+					if($blind == 1) echo "<a href=table.php?table_req=".$table_no."&sym=".$sym."&pos=".(($H*3)+$W)."&turn=".$row["turn"].">";
 					echo "<img src='bg.png'".(($H*3)+$W).">";
 					if($blind == 1) echo "</a>";
 					}
@@ -66,4 +66,5 @@
 		</table>
 </div>
 </div> <!-- End of outer-wrapper which opens in header.php -->
-<?php include ("Includes/footer.php"); ?>
+<?php include ("Includes/footer.php"); 
+header("Refresh: 2;url='http://e12bg.azurewebsites.net/table.php?table_req=".$table_no."'");?>
