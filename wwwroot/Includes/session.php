@@ -1,6 +1,6 @@
 <?php
     session_start();
-    require_once  ("Includes/connectDB.php");
+    require_once  ("connectDB.php");
 
     function logged_on()
     {

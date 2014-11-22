@@ -23,23 +23,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="server.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/server.php">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/phpfreechat-1.7/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="13" selection-start="49" selection-end="49" vertical-scroll-proportion="0.03794643" vertical-offset="0" max-vertical-offset="2652">
+            <state line="26" column="20" selection-start="952" selection-end="952" vertical-scroll-proportion="-17.0" vertical-offset="0" max-vertical-offset="629">
+              <folding>
+                <element signature="n#style#0;n#p#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chat.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chat.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="41" selection-start="753" selection-end="753" vertical-scroll-proportion="0.32254463" vertical-offset="0" max-vertical-offset="896">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chat.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chat.php">
+      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Includes/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="40" selection-start="1416" selection-end="1416" vertical-scroll-proportion="-13.730769" vertical-offset="459" max-vertical-offset="2006">
+            <state line="12" column="4" selection-start="415" selection-end="415" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="935">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="connectDB.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Includes/connectDB.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="2" selection-start="397" selection-end="397" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="323">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="simplecms-config.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Includes/simplecms-config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="238">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="play.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/play.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="70" column="5" selection-start="2224" selection-end="2227" vertical-scroll-proportion="-30.076923" vertical-offset="408" max-vertical-offset="1309">
               <folding>
-                <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1416563687856" expanded="false" signature="2876:2883" placeholder="..." />
+                <marker date="1416665329838" expanded="true" signature="199:254" placeholder="INSERT INTO ..." />
+                <marker date="1416665329838" expanded="true" signature="865:884" placeholder="SELECT * FRO..lobby..." />
+                <marker date="1416665329838" expanded="true" signature="1836:2205" placeholder="..." />
+                <marker date="1416665329838" expanded="true" signature="1859:2193" placeholder="..." />
+                <marker date="1416665329838" expanded="true" signature="1912:2108" placeholder="..." />
+                <marker date="1416665329838" expanded="true" signature="1933:2090" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -57,6 +98,14 @@
       <list>
         <option value="$PROJECT_DIR$/register.php" />
         <option value="$PROJECT_DIR$/server.php" />
+        <option value="$PROJECT_DIR$/phpfreechat-1.7/index.php" />
+        <option value="$PROJECT_DIR$/Includes/session.php" />
+        <option value="$PROJECT_DIR$/Functions/database.php" />
+        <option value="$PROJECT_DIR$/Includes/header.php" />
+        <option value="$PROJECT_DIR$/Includes/connectDB.php" />
+        <option value="$PROJECT_DIR$/Includes/footer.php" />
+        <option value="$PROJECT_DIR$/play.php" />
+        <option value="$PROJECT_DIR$/phpfreechat-1.7/src/pfcglobalconfig.class.php" />
         <option value="$PROJECT_DIR$/chat.php" />
       </list>
     </option>
@@ -94,7 +143,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -123,12 +171,59 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="phpfreechat-1.7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wwwroot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wwwroot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phpfreechat-1.7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wwwroot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wwwroot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Includes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wwwroot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wwwroot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Functions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -139,6 +234,7 @@
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="SearchEverywhereHistory" value="" />
     <property name="FullScreen" value="false" />
+    <property name="LayoutCode.rearrangeEntriesPHP" value="false" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -166,28 +262,28 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14739583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14739583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -204,9 +300,18 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/chat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="40" selection-start="1416" selection-end="1416" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="2006">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
@@ -217,80 +322,130 @@
     <entry file="file://$PROJECT_DIR$/register.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="95" column="11" selection-start="3524" selection-end="3882" vertical-scroll-proportion="0.0" vertical-offset="1615" max-vertical-offset="1785">
-          <folding>
-            <marker date="1416559225486" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1416559225486" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1416559225486" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1416559225486" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1416559225486" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1416559225486" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1416559225486" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1173">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1173" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="0" selection-start="1045" selection-end="1045" vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="1275" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Includes/connectDB.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="610" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="1045" selection-end="1045" vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="1275">
+        <state line="17" column="0" selection-start="427" selection-end="427" vertical-scroll-proportion="0.32254463" vertical-offset="0" max-vertical-offset="896">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/register.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="36" selection-start="866" selection-end="866" vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="1581">
+        <state line="57" column="50" selection-start="2324" selection-end="2324" vertical-scroll-proportion="1.0814732" vertical-offset="0" max-vertical-offset="1581">
           <folding>
             <marker date="1416559225486" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1416559225486" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1416559225486" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1416559225486" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1416559225486" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1416559225486" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1416559225486" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1275">
+          <folding>
+            <marker date="1416650258764" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
+            <marker date="1416650258764" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
+            <marker date="1416650258764" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
+            <marker date="1416650258764" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
+            <marker date="1416650258764" expanded="true" signature="-1:-1" placeholder="SELECT id FR..roles..." />
+            <marker date="1416650258764" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1416650258764" expanded="true" signature="-1:-1" placeholder="SELECT id FR..users..." />
+            <marker date="1416650258764" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1416650258764" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Includes/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="22" selection-start="206" selection-end="206" vertical-scroll-proportion="0.1328125" vertical-offset="0" max-vertical-offset="896">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Includes/session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="25" selection-start="52" selection-end="52" vertical-scroll-proportion="0.03794643" vertical-offset="0" max-vertical-offset="896">
+          <folding>
+            <marker date="1416649733962" expanded="true" signature="-1:-1" placeholder="SELECT user_..users_in_roles..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpfreechat-1.7/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="20" selection-start="952" selection-end="952" vertical-scroll-proportion="-17.0" vertical-offset="0" max-vertical-offset="629">
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/play.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="5" selection-start="2224" selection-end="2227" vertical-scroll-proportion="-30.076923" vertical-offset="408" max-vertical-offset="1309">
+          <folding>
+            <marker date="1416665329838" expanded="true" signature="199:254" placeholder="INSERT INTO ..." />
+            <marker date="1416665329838" expanded="true" signature="865:884" placeholder="SELECT * FRO..lobby..." />
+            <marker date="1416665329838" expanded="true" signature="1836:2205" placeholder="..." />
+            <marker date="1416665329838" expanded="true" signature="1859:2193" placeholder="..." />
+            <marker date="1416665329838" expanded="true" signature="1912:2108" placeholder="..." />
+            <marker date="1416665329838" expanded="true" signature="1933:2090" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Includes/simplecms-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="922">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Includes/connectDB.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="2" selection-start="397" selection-end="397" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpfreechat-1.7/src/phpfreechat.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="452" column="28" selection-start="14146" selection-end="14146" vertical-scroll-proportion="8.215402" vertical-offset="0" max-vertical-offset="9554">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpfreechat-1.7/src/pfcglobalconfig.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="600" column="5" selection-start="22374" selection-end="22374" vertical-scroll-proportion="0.489093" vertical-offset="9451" max-vertical-offset="19635">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Includes/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.08147322" vertical-offset="73" max-vertical-offset="969">
+        <state line="12" column="4" selection-start="415" selection-end="415" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="935">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chat.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="40" selection-start="1416" selection-end="1416" vertical-scroll-proportion="-13.730769" vertical-offset="459" max-vertical-offset="2006">
-          <folding>
-            <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1416563687856" expanded="false" signature="2876:2883" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="49" selection-end="49" vertical-scroll-proportion="0.03794643" vertical-offset="0" max-vertical-offset="2652">
+        <state line="17" column="41" selection-start="753" selection-end="753" vertical-scroll-proportion="0.32254463" vertical-offset="0" max-vertical-offset="896">
           <folding />
         </state>
       </provider>
