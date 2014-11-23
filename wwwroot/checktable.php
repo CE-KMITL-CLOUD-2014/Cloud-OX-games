@@ -17,7 +17,7 @@
 		echo "Error deleting record: " . $conn->error;
 	}
 	$win = 0;
-	$sql = "SELECT * FROM lobby WHERE id = '".$table_no."'";
+	$sql = "SELECT * FROM lobby ";
 	$result = $databaseConnection->query($sql);
 	while($row = $result->fetch_assoc()){
 		if($row["d1"]==1&&$row["d2"]==1&&$row["d3"]==1) $win = 1;
